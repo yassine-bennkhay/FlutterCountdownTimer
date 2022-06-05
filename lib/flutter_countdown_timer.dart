@@ -98,7 +98,7 @@ class _CountDownState extends State<CountdownTimer> {
 
     String value = '';
     if (time.days != null) {
-      value = '$value${time.days} days ';
+      value = '$value${time.days} jours ';
     }
 
     return Text(
